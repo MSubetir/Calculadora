@@ -11,19 +11,21 @@ body{
 	flex-direction: column;
 }
 
+
+
 header{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 10vh;
-	width: 30vw;
+	height: 100px;
+	width: 500px;
 	background: #ced6e0;
 }
 header input{
 	height: 80%;
 	width: 90%;
 	font-family: monospace;
-	font-size: 3.6vw;
+	font-size: 3em;
 	background: #a4b0be;
 }
 
@@ -33,8 +35,8 @@ main{
 	align-items: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-	height: 60vh;
-	width: 30vw;
+	height: 400px;
+	width: 500px;
 	background: #ced6e0;
 }
 main > button{
@@ -44,7 +46,7 @@ main > button{
 	height: 25%;
 	width: 30%;
 	font-family: monospace;
-	font-size: 2.5vw;
+	font-size: 2em;
 	background: #a4b0be;
 }
 
@@ -52,13 +54,13 @@ footer{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	height: 11vh;
-	width: 30vw;
+	height: 100px;
+	width: 500px;
 	background: #ced6e0;
 }
 footer button{
 	font-family: monospace;
-	font-size: 2.5vw;
+	font-size: 2em;
 	color: #ffffff;
 	background-color: #747d8c;
 	border-radius: 4px;
@@ -66,9 +68,8 @@ footer button{
 
 footer button.resultado{
 	font-family: monospace;
-	font-size: 3.5vw;
+	font-size: 3em;
 	color: #a4b0be;
 	background-color: #ffffff;
 	border-radius: 4px;
 }
-
